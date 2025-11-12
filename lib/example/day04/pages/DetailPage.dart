@@ -8,9 +8,9 @@ class DetailPage extends StatelessWidget{
     return Scaffold(
       appBar: AppBar( title: Text("상세"),),
       body: Center(
-        child: Column(
+        child: Column( // 안쪽여백
           children: [
-            Text("상페 페이지"),
+            Text("상세 페이지"),
             ElevatedButton(
                 onPressed: (){
                   // 최근의 위젯으로 돌아가기
